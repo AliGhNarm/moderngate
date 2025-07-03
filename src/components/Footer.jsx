@@ -23,7 +23,7 @@ const Footer = () => {
             About Us
           </h2>
           <p className="text-base leading-relaxed text-gray-200">
-            Modern Gate Facilities Management Servicesq is a part of Al Waleed
+            Modern Gate Facilities Management Services is a part of Al Waleed
             Group. We are a leading service provider in the FM Industry in UAE.
             <br />
             <br />
