@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import ServicesOverview from "../components/ServicesOverview";
 import CompanyOverview from "../components/CompanyOverview";
 import AppointmentForm from "../components/AppointmentForm";
+import HowItWorks from "../components/HowItWorks";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <ServicesOverview />
       <CompanyOverview />
       <AppointmentForm />
+      <HowItWorks />
     </div>
   );
 };

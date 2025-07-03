@@ -3,6 +3,8 @@ import tool from '../assets/tool.png';
 import worker from '../assets/worker.png';
 
 
+
+
 // All the assets
 export const assets = {
     logo,
@@ -56,3 +58,4 @@ export const serviceCards = [
         service: "View All Services"
     },
 ];
+
