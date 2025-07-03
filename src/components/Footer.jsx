@@ -5,7 +5,7 @@ import { MdEmail, MdLocationOn } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#363636] text-white relative h-[90vh] w-full flex-shrink-0 overflow-y-auto">
+    <footer className="bg-black text-white relative md:h-[90vh] w-full">
       {/* Dotted Background */}
       <div
         className="absolute inset-0 opacity-10"
