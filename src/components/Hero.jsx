@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="md:h-[78vh] h-[37vh] md:w-full w-full  ">
       <div className="banner md:h-[82%] h-[82%] w-full bg-blue-400"></div>
-      <div className="banner md:h-[18%] md:flex items-center flex justify-around py-2.5  w-full bg-primary">
+      <div className="banner md:h-[18%] h-[7vh] md:flex items-center flex justify-around py-2.5  w-full bg-primary">
         <div className="text-gray-400 text-2xl font-medium">
           <a href="tel:+971 4 354 8115">Call Us: +971 4 354 8115</a>
         </div>
