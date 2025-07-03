@@ -1,11 +1,13 @@
 import logo from '../assets/logo.png';
 import tool from '../assets/tool.png';
+import worker from '../assets/worker.png';
 
 
 // All the assets
 export const assets = {
     logo,
     tool,
+    worker,
     dots: "https://alwaleedfm.com/wp-content/uploads/2022/07/dots.png"
 };
 
