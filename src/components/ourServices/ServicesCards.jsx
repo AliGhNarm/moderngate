@@ -28,7 +28,7 @@ const ServicesCards = () => {
         {serviceData.map((data) => (
           <div
             key={data.id}
-            className="bg-white rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg transition duration-1000 group overflow-hidden"
+            className="bg-white rounded-xl shadow-md flex flex-col items-center text-center hover:shadow-lg w-full transition duration-1000 group overflow-hidden"
           >
             <div className="">
               <img
