@@ -5,7 +5,7 @@ const Tabs = () => {
   const [activeTab, setActiveTab] = useState(tabs[0]);
 
   return (
-    <div className="bg-black/70 text-white py-8 px-4 md:h-[35vh] flex flex-col justify-center items-center">
+    <div className="bg-black/70 text-white py-8 px-4 h-auto md:h-[35vh] flex flex-col justify-center items-center">
       {/* Tab Buttons */}
       <div className="flex space-x-4 mb-6">
         {tabs.map((tb) => (
