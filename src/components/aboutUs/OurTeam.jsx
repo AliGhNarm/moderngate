@@ -3,7 +3,7 @@ import { assets } from "../../assets/assets";
 
 const OurTeam = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center h-[80vh] bg-white/90 px-4 md:px-12 py-10 gap-10">
+    <div className="flex flex-col md:flex-row justify-center items-center md:h-[80vh] h-screen bg-white/90 px-4 md:px-12 py-10 gap-10">
       {/* Left Image */}
       <div className="w-full md:w-1/3 flex justify-center">
         <img
