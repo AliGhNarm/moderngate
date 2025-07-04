@@ -51,7 +51,7 @@ const AppointmentForm = () => {
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-primary text-white py-2 rounded hover:bg-primary/90 transition"
+              className="w-full bg-primary  text-white py-2 rounded hover:bg-primary/90 transition"
             >
               Fix An Appointment
             </button>
