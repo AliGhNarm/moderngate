@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/ourServices/Header";
+import ServicesCards from "../components/ourServices/ServicesCards";
 
 const Services = () => {
   return (
-    <div>Services</div>
-  )
-}
+    <div>
+      <Header />
+      <ServicesCards />
+    </div>
+  );
+};
 
-export default Services
+export default Services;
