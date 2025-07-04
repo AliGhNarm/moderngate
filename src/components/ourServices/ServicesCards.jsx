@@ -4,7 +4,7 @@ import { serviceData } from "../../assets/assets";
 
 const ServicesCards = () => {
   return (
-    <div className="md:w-[90vw] w-full mx-auto py-12 px-20">
+    <div className="md:w-[90vw] w-full mx-auto py-12 md:px-20 px-8">
       <TopHeading
         text={"Services We Offer At"}
         text2={"Modern Gate Facilities Management Services"}
