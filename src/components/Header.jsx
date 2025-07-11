@@ -23,7 +23,7 @@ const Header = () => {
           <div className="flex md:gap-4 items-cente px-2">
             <div className="text-end">
               <div>واتساپ</div>
-              <div>+98 999 10 2020</div>
+              <div>+98 0993 574 6973</div>
             </div>
             <a
 
@@ -38,7 +38,7 @@ const Header = () => {
           <div className="flex md:gap-4 items-center px-1">
             <div className="text-end">
               <div>تلفن</div>
-              <div>+98 999 10 2020</div>
+              <div>+98 0993 574 6973</div>
             </div>
             <a
               href="tel:+0999102020"
@@ -134,4 +134,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 
