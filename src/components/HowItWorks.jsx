@@ -12,39 +12,39 @@ import { assets } from "../assets/assets";
 export const steps = [
   {
     icon: <FaCalendarCheck className="text-primary text-3xl" />,
-    title: "1. Book Online",
+    title: "۱. تماس شما",
     desc:
-      "Go to alwaleedfm.com and book your required service at the convenience of setting your own schedules.",
+      "شما با ما تماس می‌گیرید و مشکل خود را شرح می‌دهید",
   },
   {
     icon: <FaPhoneAlt className="text-primary text-3xl" />,
-    title: "2. Confirmation",
+    title: "۲. اعزام نیرو",
     desc:
-      "A phone call or an email will be sent to you by one of our representatives to confirm your appointment.",
+      "ما در سریع‌ترین زمان ممکن نیروهای متخصص خود را به محل شما اعزام می‌کنیم.",
   },
   {
     icon: <FaTasks className="text-primary text-3xl" />,
-    title: "3. Work Status",
+    title: "۳. رفع مشکل",
     desc:
-      "As soon as the confirmation has been made, the status of your appointment will be updated and notified via Message.",
+      "تکنسین‌های ما مشکل را به صورت کامل و حرفه‌ای برطرف می‌کنند.",
   },
   {
     icon: <FaCheckCircle className="text-primary text-3xl" />,
-    title: "4. Completion",
+    title: "۴. اتمام کار",
     desc:
-      "When you get your service done, your status will be changed to 'Completion' & appointment will be closed after handing over a detailed report.",
+      "پس از اطمینان از رضایت شما، کار به پایان رسیده و محل را ترک می‌کنیم.",
   },
 ];
 
 const HowItWorks = () => (
   <div className="bg-gray-50 py-12 px-4 lg:px-24">
     <div className="text-center">
-      <TopHeading text={"How"} text2={" It Works"} />
-      <span className="text-gray-400 text-center">What We have Done</span>
-      <p className="">
-        Modern Gate Facilities Management Services is extremely simple to ensure
-        facilitation and convenience for our clients.
-      </p>
+      <TopHeading text={"روش"} text2={" کار ما"} />
+      <span className="text-gray-400 text-center">خدمات ما چگونه انجام میشود</span>
+      <p className="py-1 animate-fadeIn">
+      شرکت مدیریت تأسیسات مدرن گیت فرآیند ارائه خدمات را به ساده‌ترین شکل ممکن طراحی کرده تا حداکثر سهولت و کارایی را برای مشتریان عزیز فراهم نماید
+
+</p>
     </div>
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">

@@ -8,10 +8,8 @@ import HowItWorks from "../components/HowItWorks";
 const Home = () => {
   return (
     <div className="">
-      <Hero />
       <ServicesOverview />
       <CompanyOverview />
-      <AppointmentForm />
       <HowItWorks />
     </div>
   );

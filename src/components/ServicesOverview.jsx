@@ -8,16 +8,16 @@ const ServicesOverview = () => {
       <div className="w-full max-w-[1200px] flex flex-col items-center">
         {/* Heading */}
         <div className="text-center mb-4">
-          <TopHeading text={"Our"} text2={"Services"} />
-          <p className="text-gray-500 text-lg mt-1">What We Do For You</p>
+          <TopHeading text={"خدمات"} text2={"ما"} />
+          <p className="text-gray-500 text-lg mt-1">آنچه برای شما انجام می‌دهیم</p>
         </div>
 
         {/* Description */}
-        <p className="text-center text-gray-700 max-w-3xl mb-8 px-4 md:px-0">
-          Modern Gate Facilities Management Services offers a range of office &
-          home maintenance services in Dubai including cleaning, maintenance,
-          renovations, and fixing services. Witness perfection with the flawless
-          work done by our certified technicians and experts.
+        <p className="text-center text-gray-700 max-w-3xl mb-8 px-4 md:px-0 text-l">
+         
+        شرکت مدیریت تأسیسات مدرن ، مجموعه‌ای از خدمات نگهداری و تعمیرات اداری و خانگی را در شهر شما ارائه می‌دهد که شامل  نگهداری، بازسازی و خدمات تعمیراتی می‌شود. با کار بی‌نقص تکنسین‌ها و متخصصان مجرب ما، شاهد کیفیت بی‌نظیر باشید
+        
+
         </p>
 
         {/* Cards */}

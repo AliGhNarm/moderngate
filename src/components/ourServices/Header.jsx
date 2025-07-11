@@ -18,7 +18,7 @@ const Header = () => {
       {/* Heading Content */}
       <div className="relative z-20 flex justify-center items-center h-full">
         <h1 className="text-white text-5xl font-semibold">
-          Our <span className="text-primary hover:text-black">Services</span>
+          خدمات <span className="text-primary hover:text-black">ما</span>
         </h1>
       </div>
     </div>

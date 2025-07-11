@@ -7,35 +7,26 @@ const CompanyOverview = () => {
     <section className="relative min-h-screen bg-black text-white pt-20 pb-32 px-4 md:px-10 text-center overflow-hidden">
       {/* Icon */}
       <TopHeading
-        text={"Modern Gate "}
-        text2={"Facilities Management Services"}
+        text={"مدرن "}
+        text2={"شرکت مدریت تاسیسات مدرن"}
       />
 
       {/* Paragraphs */}
-      <div className="mt-8 max-w-5xl mx-auto space-y-6 text-sm md:text-base leading-relaxed text-white/90 px-4">
-        <p className="animate-fadeIn">
-          Modern Gate Facilities Management Services is privileged to be a
-          leading commercial and home maintenance service in the U.A.E.,
-          providing 100% safe and eco-friendly procedures, state-of-the art
-          equipment, and certified crews to deliver quality services at the best
-          rates. Our service portfolio focuses on fit–out, indoor or outdoor
-          cleaning, MEP maintenance repair, renovation & refurbishment for
-          commercial, residential, and industrial sectors across the UAE.
+      <div className="mt-8 max-w-5xl mx-auto space-y-7  md:text-base leading-relaxed text-white/90 px-4 ">
+        <p className="animate-fadeIn text-xl">
+        شرکت مدیریت تأسیسات مدرن گیت مفتخر است که به عنوان یکی از پیشگامان در زمینه خدمات نگهداری و تعمیرات تجاری و خانگی در امارات متحده عربی فعالیت می‌کند. ما با بهره‌گیری از روش‌های ۱۰۰٪ ایمن و سازگار با محیط‌زیست، تجهیزات پیشرفته و نیروهای متخصص و گواهی‌دار، خدمات باکیفیت را با بهترین قیمت‌ها ارائه می‌دهیم. مجموعه خدمات ما شامل طراحی و اجرای دکوراسیون داخلی، نظافت فضاهای داخلی و خارجی، تعمیر و نگهداری تأسیسات مکانیکی، الکتریکی و لوله‌کشی (MEP)، و همچنین بازسازی و نوسازی برای بخش‌های تجاری، مسکونی و صنعتی در سراسر امارات می‌شود.
+
+
         </p>
-        <p className="animate-fadeIn delay-100">
-          Commitment to quality services is the only thing we know to develop a
-          loyal customer base. We are growing as a multi-faceted facility
-          support services company that offers over 20+ different specialized
-          services. Our team employs innovative technology and techniques in
-          combination with skills and expertise to deliver rated workmanship for
-          our valued clients.
+        <p className="animate-fadeIn delay-100 text-xl py-1">
+        تعهد به ارائه خدمات باکیفیت تنها راهی است که ما برای جلب رضایت مشتریان و ایجاد پایگاهی وفادار می‌شناسیم. ما به عنوان یک شرکت چندوجهی در زمینه خدمات پشتیبانی تأسیسات، بیش از ۲۰ خدمت تخصصی متنوع ارائه می‌دهیم. تیم ما با به‌کارگیری فناوری‌های نوین و تکنیک‌های پیشرفته در ترکیب با مهارت و تخصص، کیفیت بی‌نظیری را برای مشتریان ارزشمند خود به ارمغان می‌آورد.
+
+
         </p>
-        <p className="animate-fadeIn delay-200">
-          With our 24/7 helpline, you can get professional service hassle-free
-          anytime at your convenience. We are a one-window solution provider for
-          all your commercial and home maintenance needs in the UAE. What are
-          you waiting for? Come aboard; expert 360° cleaning, maintenance, and
-          repair services await you.
+        <p className="animate-fadeIn delay-200 text-xl py-1">
+        با خط کمک‌رسانی ۲۴ ساعته ما، می‌توانید در هر زمان و به راحتی از خدمات حرفه‌ای ما بهره‌مند شوید. ما به عنوان ارائه‌دهنده «راه‌حل یک‌پنجره» برای تمام نیازهای تعمیرات و نگهداری تجاری و خانگی شما در امارات متحده عربی آماده خدمت‌رسانی هستیم. منتظر چه هستید؟ همین امروز به جمع مشتریان ما بپیوندید و از خدمات ۳۶۰ درجه نظافت، تعمیرات و نگهداری متخصصان ما بهره‌مند شوید.
+
+
         </p>
       </div>
 

@@ -6,21 +6,14 @@ const ServicesCards = () => {
   return (
     <div className="md:w-[90vw] w-full mx-auto py-12 md:px-20 px-8">
       <TopHeading
-        text={"Services We Offer At"}
-        text2={"Modern Gate Facilities Management Services"}
+        text={"خدمات"}
+        text2={" شرکت مدرن"}
       />
       <p className="font-semibold text-center text-gray-500 py-2">
-        One Window Platform for Comprehensive Commercial & Residential Cleaning
-        Services in Dubai.
+        پلتفرم یکپارچه خدمات تاسیساتی و مسکونی در شهر شما
       </p>
       <p className="text-center text-gray-600 py-3 mb-8 px-4 md:px-20">
-        Modern Gate Facilities Management Services offers a range of Commercial
-        & Residential Cleaning Services in Dubai including cleaning,
-        maintenance, renovations and fixing services. All our service procedures
-        are aligned with DEWA and Emirates Health Services (EHS) and Takhrees.
-        We embark on the highest inspection and cleaning standards in the
-        industry. Our quality work is guaranteed to pass insurance, health, and
-        fire inspections.
+        شرگت تاسیساتی مدرن با ارائه طیف گسترده از خدمات نظافتی، تعمیراتی و بازسازی برای اماکن تجاری و مسکونی در شهر شما طبق بالاترین سطح استاندارد انجام میدهد.با رعایت بالاترین استانداردها تضمین میکنیم تا نیاز های شما را بر طرف کنیم  
       </p>
 
       {/* Cards Grid */}

@@ -8,12 +8,12 @@ const Form = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input
             type="text"
-            placeholder="First Name"
+            placeholder="نام"
             className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary w-full"
           />
           <input
             type="text"
-            placeholder="Last Name"
+            placeholder="نام خانوادگی"
             className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary w-full"
           />
         </div>
@@ -22,7 +22,7 @@ const Form = () => {
         <div>
           <input
             type="email"
-            placeholder="Email"
+            placeholder="ایمیل"
             className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary w-full"
           />
         </div>
@@ -31,27 +31,28 @@ const Form = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input
             type="tel"
-            placeholder="Phone"
-            className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary w-full"
+            required
+            placeholder="شماره همراه"
+            className=" border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary w-full"
           />
           <select
             className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary w-full"
             defaultValue=""
           >
             <option value="" disabled>
-              Type of Service
+              نوع سرویس
             </option>
-            <option value="ac">AC Services</option>
-            <option value="plumbing">Plumbing</option>
-            <option value="electrical">Electrical</option>
-            <option value="handyman">Handyman</option>
+            <option value="ac">کولر و اسپیلت</option>
+            <option value="plumbing">لوله کشی</option>
+            <option value="electrical">برق کشی</option>
+            <option value="handyman">تعمیرات عمومی</option>
           </select>
         </div>
 
         {/* Row 4 - Message */}
         <div>
           <textarea
-            placeholder="How Can We Help You?"
+            placeholder="چگونه به شما میتوانیم کمک کنیم؟"
             rows="4"
             className="border border-gray-300 rounded-md p-3 w-full resize-none focus:outline-none focus:ring-2 focus:ring-primary w-full"
           ></textarea>
@@ -63,7 +64,7 @@ const Form = () => {
             type="submit"
             className="bg-primary w-full text-white px-6 py-3 rounded-md font-semibold hover:bg-primary/90 cursor-pointer transition duration-300"
           >
-            Get Help Now
+            رزرو کنید
           </button>
         </div>
       </form>

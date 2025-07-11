@@ -8,7 +8,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="md:h-[24vh] h-auto w-full">
+    <header className="md:h-[24vh] h-auto w-full ">
       {/* Top section */}
       <div className="md:h-[17vh] h-[21vh] bg-white flex flex-col md:flex-row md:items-center justify-between md:px-5 px-3 py-2">
         {/* Logo center on mobile */}
@@ -19,29 +19,30 @@ const Header = () => {
         </div>
 
         {/* Contact info (only visible on md and up) */}
-        <div className="hidden md:flex items-center md:gap-10">
-          <div className="flex md:gap-4 items-center">
+        <div className="hidden md:flex items-center md:gap-1" style={{fontFamily:'sans-serif', fontSize:'17px'}}>
+          <div className="flex md:gap-4 items-cente px-2">
             <div className="text-end">
-              <div>WhatsApp</div>
-              <div>+(971) 58 103 5828</div>
+              <div>واتساپ</div>
+              <div>+98 999 10 2020</div>
             </div>
             <a
+
               href="https://wa.me/971581035828"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-primary hover:bg-black cursor-pointer h-16 w-16 flex items-center justify-center"
+              className="bg-primary hover:bg-black cursor-pointer h-16 w-16 flex items-center justify-center transition-colors"
             >
-              <IoLogoWhatsapp className="text-4xl text-white" />
+              <IoLogoWhatsapp className="text-4xl text-white " />
             </a>
           </div>
-          <div className="flex md:gap-4 items-center">
+          <div className="flex md:gap-4 items-center px-1">
             <div className="text-end">
-              <div>Phone</div>
-              <div>+(971) 58 103 5828</div>
+              <div>تلفن</div>
+              <div>+98 999 10 2020</div>
             </div>
             <a
-              href="tel:+971581035828"
-              className="bg-primary hover:bg-black cursor-pointer h-16 w-16 flex items-center justify-center"
+              href="tel:+0999102020"
+              className="bg-primary hover:bg-black cursor-pointer h-16 w-16 flex items-center justify-center transition-colors"
             >
               <FaPhone className="text-4xl text-white" />
             </a>
@@ -50,18 +51,8 @@ const Header = () => {
       </div>
 
       {/* Bottom nav */}
-      <div className="md:h-[7vh] bg-primary text-white py-2 text-lg px-3 md:px-3 flex items-center justify-between relative">
-        {/* Left (mobile): Search bar */}
-        <div className="md:hidden flex items-center gap-2">
-          <input
-            type="search"
-            placeholder="Search..."
-            className="outline-none bg-white px-3 py-1 text-black text-sm rounded"
-          />
-          <button className="bg-[#54595F] h-8 w-8 flex items-center justify-center rounded">
-            <FaSearch />
-          </button>
-        </div>
+      <div className="md:h-[7vh] bg-primary text-white py-2 text-lg px-3 md:px-3 flex items-center justify-between relative font-semibold ">
+        
 
         {/* Center - NavLinks (desktop only) */}
         <div className="hidden md:flex justify-center w-full items-center gap-8">
@@ -71,23 +62,16 @@ const Header = () => {
               `px-4 ${isActive ? "font-medium text-slate-800" : ""}`
             }
           >
-            Home
+            خانه
           </NavLink>
-          <NavLink
-            to="/about-us"
-            className={({ isActive }) =>
-              `px-4 ${isActive ? "font-medium text-slate-800" : ""}`
-            }
-          >
-            About Us
-          </NavLink>
+          
           <NavLink
             to="/our-services"
             className={({ isActive }) =>
               `px-4 ${isActive ? "font-medium text-slate-800" : ""}`
             }
           >
-            Our Services
+          خدمات ما
           </NavLink>
           <NavLink
             to="/contact-us"
@@ -95,7 +79,7 @@ const Header = () => {
               `px-4 ${isActive ? "font-medium text-slate-800" : ""}`
             }
           >
-            Contact Us
+            تماس با ما
           </NavLink>
         </div>
 
@@ -106,17 +90,7 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Right (desktop): Search bar */}
-        <div className="absolute right-7 hidden md:flex items-center">
-          <input
-            type="search"
-            placeholder="Search..."
-            className="outline-none bg-white px-4 py-1 text-black text-sm"
-          />
-          <button className="bg-[#54595F] h-8 w-8 flex items-center justify-center">
-            <FaSearch />
-          </button>
-        </div>
+        
       </div>
 
       {/* Mobile Menu */}
@@ -131,19 +105,9 @@ const Header = () => {
             }
             onClick={() => setMenuOpen(false)}
           >
-            Home
+            خانه
           </NavLink>
-          <NavLink
-            to="/about-us"
-            className={({ isActive }) =>
-              `py-3 border-b border-white ${
-                isActive ? "font-bold bg-black/20" : ""
-              }`
-            }
-            onClick={() => setMenuOpen(false)}
-          >
-            About Us
-          </NavLink>
+          
           <NavLink
             to="/our-services"
             className={({ isActive }) =>
@@ -153,7 +117,7 @@ const Header = () => {
             }
             onClick={() => setMenuOpen(false)}
           >
-            Our Services
+            خدمات ما
           </NavLink>
           <NavLink
             to="/contact-us"
@@ -162,7 +126,7 @@ const Header = () => {
             }
             onClick={() => setMenuOpen(false)}
           >
-            Contact Us
+            تماس با ما
           </NavLink>
         </div>
       )}

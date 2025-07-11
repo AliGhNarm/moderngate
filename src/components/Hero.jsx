@@ -22,13 +22,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[50vh] md:h-[78vh]">
+    <section className="relative w-full h-[5vh] md:h-[78vh">
       {/* Main Banner */}
-      <div className="absolute top-0 left-0 w-full h-[85%] bg-blue-400">
-        {/* You should replace this with your actual banner image */}
-        {/* <img src="/banner.jpg" alt="Banner" className="w-full h-full object-cover" /> */}
-      </div>
-
+      
       {/* Contact Bar */}
       <div className="absolute bottom-0 left-0 w-full h-[20%] bg-primary flex  items-center justify-between px-4 md:px-8 py-2">
         <div className="text-white md:text-gray-200 md:text-2xl font-medium mb-2 md:mb-0 text-center md:text-left">
